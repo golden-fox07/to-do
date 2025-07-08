@@ -34,10 +34,19 @@ class TodoListUI {
     this.todoList.gettasks().forEach((task) => {
       const todoElement = document.createElement('li');
       todoElement.innerHTML = `
-                <input type="checkbox" ${task.completed ? "checked" : ""}>
-                <span>${task.text}</span>
+                <input type="checkbox" class="task-checkbox" ${task.completed ? "checked" : ""}>
+                <span class="task-text ${task.completed ? 'completed' : ''}">${task.text}</span>
                 <button class="remove-todo" data-id="${task.id}">Remove</button>
             `;
+        // Get elements
+        const checkbox = todoElement.querySelector('.task-checkbox') as HTMLInputElement;
+        const textSpan = todoElement.querySelector('.task-text') as HTMLSpanElement;
+
+        // Add event listener for checkbox
+        checkbox.addEventListener('change', () => {
+          task.completed = checkbox.checked;
+          textSpan.classList.toggle('completed', task.completed);
+        });
       todoListElement.appendChild(todoElement);
     });
   }
