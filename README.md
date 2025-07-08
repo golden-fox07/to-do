@@ -1,6 +1,6 @@
 # 📝 To-Do List 
 
-A simple and responsive To-Do List application built using **TypeScript** and **Vite**.
+A simple To-Do List application built using **TypeScript** and **Vite**.
 This project is designed for practicing modern frontend development and was my first deployment experience using **Vercel**.
 
 Live Demo: [To Do List](https://to-do-golden-fox07.vercel.app/)
