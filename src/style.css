@@ -114,8 +114,7 @@ body {
 
 /* remove list button */
 .remove-todo {
-  background-color: var(--button-color);
-  color: black;
+  background: transparent;
   border: none;
   padding: 0.4rem 0.6rem;
   border-radius: 1.5rem;
@@ -123,9 +122,9 @@ body {
   font-size: 0.9rem;
   font-family: "Zain", sans-serif;
 }
-
 .remove-todo:hover {
-  background-color:var(--button-hover-color);
+  background: transparent;
+  transform: scale(1.1);
 }
 
 .task-text {
