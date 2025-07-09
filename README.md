@@ -7,7 +7,7 @@ Live Demo: [To Do List](https://to-do-golden-fox07.vercel.app/)
 
 ## Overview
 <p align="center">
-   <img src = "https://github.com/user-attachments/assets/7f3f91e1-b5e0-439e-b7da-52d24a47b068" width = "90%"> 
+   <img src = "https://github.com/user-attachments/assets/b83758aa-cb18-4907-8530-16191d214516" width = "90%"> 
 </p>
 
 ##  Tech Stack 🧙‍♂️
